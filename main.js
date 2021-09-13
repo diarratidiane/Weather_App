@@ -10,7 +10,7 @@ var wind = document.querySelector('#wind')
 
 // Get your own free OWM API key at https://www.openweathermap.org/appid - please do not re-use mine!
 // You don't need an API key for this to work at the moment, but this will change eventually.
-api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=b9255f1c86e72e2224f0f39f7b98e5d1
+apik = "b9255f1c86e72e2224f0f39f7b98e5d1"
 //kelvin to celcious
 function convertion(val){
     return (val - 273).toFixed(2)
